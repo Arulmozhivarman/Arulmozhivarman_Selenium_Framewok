@@ -62,11 +62,11 @@ public class base_Test {
 	{
 		System.out.println("Launch Browser");
 				
-		String browser= fileutility.readDataFromPropertyFile("browserName");
-		String url = fileutility.readDataFromPropertyFile("url");
+//		String browser= fileutility.readDataFromPropertyFile("browserName");
+//		String url = fileutility.readDataFromPropertyFile("url");
 		
-//		String browser = System.getProperty("browserName");
-//		String url = System.getProperty("url");
+		String browser = System.getProperty("browserName");
+		String url = System.getProperty("url");
 		
 // for commend promt OverAll		mvn test -DbrowserName=edge -Durl=https://demowebshop.tricentis.com/
 //Select One class		mvn test -Dtest=Tc_001_verify_user_Is_Able_To_Add_Addresss_or_Not_Test
